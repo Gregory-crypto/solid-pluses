@@ -28,3 +28,7 @@ The Soundex algorithm determines whether two English words are similar in sound.
 4. Any sequence of consecutive identical digits is reduced to one such digit.
 5. The resulting string is truncated to the first four characters.
 6. If the length of the string is less than four characters, zeros are added at the end.
+### Input
+`ammonium`
+### Output
+`a500`
