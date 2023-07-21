@@ -19,12 +19,12 @@ The Soundex algorithm determines whether two English words are similar in sound.
 1. The first letter of the word is retained.
 2. In the rest of the word, the letters a, e, h, i, i, o, u, w and y are deleted;
 3. The remaining letters are replaced by numbers from 1 to 6, with similar-sounding letters corresponding to the same numbers:
-  - b, f, p, v: 1
-  - c, g, j, k, q, s, x, z: 2
-  - d, t: 3
-  - l: 4
-  - m, n: 5
-  - r: 6
+    - b, f, p, v: 1
+    - c, g, j, k, q, s, x, z: 2
+    - d, t: 3
+    - l: 4
+    - m, n: 5
+    - r: 6
 4. Any sequence of consecutive identical digits is reduced to one such digit.
 5. The resulting string is truncated to the first four characters.
 6. If the length of the string is less than four characters, zeros are added at the end.
